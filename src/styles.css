@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  text-align: center;
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+  height: 100%;
+}
+.App {
+  font-family: sans-serif;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+#header {
+  padding: 1rem;
+  color: white;
+  width: 100%;
+  top: 0;
+}
+main {
+  width: 700px;
+  margin: auto;
+  padding: 1rem;
+}
+#textarea {
+  height: 100px;
+  width: 500px;
+  border-color: #4c1d95;
+}
+#footer {
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  bottom: 0;
+}
+#footer:hover {
+  opacity: 40%;
+}
